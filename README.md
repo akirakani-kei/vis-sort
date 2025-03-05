@@ -14,6 +14,8 @@
 - [ ] fuziune intr-un singur algoritm de vizualizare (si individual si pentru comparatii)
 
 ## Installation (UNIX)
+
+Precompiled:
 ```
 git clone https://akirakani-kei/vis-sort \
 cd vis-sort \
@@ -22,4 +24,17 @@ chmod +x vis-sort.out
 *Run via:*
 ```
 ./vis-sort.out
+```
+
+***OR***
+
+Self compile:
+```
+git clone https://akirakani-kei/vis-sort \
+cd vis-sort \
+g++ vis-sort.cpp
+```
+*Run via:*
+```
+./a.out
 ```
