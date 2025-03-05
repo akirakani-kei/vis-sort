@@ -18,8 +18,8 @@
 Precompiled:
 ```
 git clone https://akirakani-kei/vis-sort \
-cd vis-sort \
-chmod +x vis-sort.out
+&& cd vis-sort \
+&& chmod +x vis-sort.out
 ```
 *Run via:*
 ```
@@ -31,8 +31,8 @@ chmod +x vis-sort.out
 Self compile:
 ```
 git clone https://akirakani-kei/vis-sort \
-cd vis-sort \
-g++ vis-sort.cpp
+&& cd vis-sort \
+&& g++ vis-sort.cpp
 ```
 *Run via:*
 ```
